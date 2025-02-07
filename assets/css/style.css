@@ -25,22 +25,27 @@ body {
       filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
       height: 65px;
     }
+
     .logo-title {
       font-size: var(--base-font-size);
       font-weight: var(--bold-weight);
       white-space: nowrap;
     }
   }
+
   .nav-bar {
     display: flex;
     align-items: center;
-    gap: 33.5px;
+    column-gap: 33.5px;
+    row-gap: 25px;
     justify-content: center;
     flex-wrap: wrap;
 
     .nav-links {
       display: flex;
-      gap: 50px;
+      column-gap: 50px;
+      row-gap: 25px;
+
       font-weight: var(--md-weight);
       font-size: var(--xs-font-size);
       flex-wrap: wrap;
