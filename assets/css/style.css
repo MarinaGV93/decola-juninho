@@ -115,22 +115,95 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
   .hero {
+    width: 100%;
+    padding: 32px;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+
     .hero-info {
+      flex: 1;
+      max-width: 545px;
+      min-width: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      z-index: 1;
+
       .hero-title {
+        font-size: var(--giant-font-size);
+        font-weight: var(--bold-weight);
+        line-height: var(--giant-line-height);
       }
+
       .hero-text {
+        font-size: var(--base-font-size);
+        font-weight: var(--thin-weight);
+        line-height: var(--base-line-height);
       }
+
       .hero-label {
+        padding: 10px 20px;
+        border: solid 2px var(--primary-color-800);
+        border-radius: 10px;
+        width: fit-content;
+        display: flex;
+        gap: 5px;
+        background-color: var(--text-color-50);
+
         .search-vacancy {
+          font-size: var(--base-font-size);
+          font-weight: var(--thin-weight);
+          line-height: var(--base-line-height);
+          color: var(--primary-color-800);
+          flex: 1;
+          width: 100%;
         }
+        
+        .search-vacancy::placeholder {
+          color: var(--primary-color-800);
+        }
+
         .search-vacancy-button {
+          padding: 15.5px 32px;
+          border-radius: 10px;
+          background-color: var(--primary-color-900);
+          color: var(--text-color-50);
+          font-size: var(--xs-font-size);
+          font-weight: var(--bold-weight);
+          width: fit-content;
         }
       }
     }
-    .hero-image {
+
+    .hero-image-container {
+      flex: 1;
+      min-width: 400px;
+      width: 100%;
+      max-width: 579px;
+      z-index: 1;
+
+      .hero-image {
+        width: auto;
+      }
     }
+
     .hero-border {
+      position: absolute;
+      z-index: 0;
+      bottom: -60px;
+      width: 100dvw;
+      height: 600px;
     }
   }
 
