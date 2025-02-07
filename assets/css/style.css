@@ -5,20 +5,203 @@
     .logo-title {
     }
   }
-
   .nav-bar {
     .nav-buttons {
       .nav-item {
         .link {
         }
-
         .nav-button {
-          .login {
-          }
+        }
+        .login {
+        }
+        .register {
+        }
+      }
+    }
+  }
+}
 
-          .register {
+.container {
+  .hero {
+    .hero-info {
+      .hero-title {
+      }
+      .hero-text {
+      }
+      .hero-label {
+        .search-vacancy {
+        }
+        .search-vacancy-button {
+        }
+      }
+    }
+    .hero-image {
+    }
+    .hero-border {
+    }
+  }
+
+  .companies-section {
+    .companies-info {
+      .companies-title {
+      }
+      .companies-text {
+      }
+      .companies-list {
+        .company {
+          .company-logo {
           }
         }
+      }
+      .vacancy-number {
+      }
+    }
+  }
+
+  .about-section {
+    .about-title {
+    }
+    .about-info {
+      .about-text {
+      }
+      .about-button {
+      }
+    }
+  }
+
+  .about-for-candidates {
+    .candidates-banner {
+      .candidates-title {
+        .candidates-title-hightlight {
+        }
+      }
+    }
+    .candidates-info {
+      .candidates-text {
+        .highlight {
+        }
+        .highlighted-word {
+        }
+      }
+      .candidates-button {
+      }
+    }
+  }
+
+  .about-for-companies {
+    .companies-info {
+      .companies-text {
+        .highlight {
+        }
+      }
+      .companies-button {
+      }
+    }
+    .companies-banner {
+      .companies-title {
+        .companies-title-hightlight {
+        }
+      }
+    }
+  }
+
+  .partners-section {
+    .partners-title {
+    }
+    .partners-text {
+    }
+    .partners-list {
+      .partner {
+        .partner-image {
+        }
+      }
+    }
+  }
+
+  .faqs-section {
+    .faqs-image {
+    }
+    .faqs-info {
+      .faqs-title {
+      }
+      .faqs {
+        .faq {
+          .faq-data {
+            .open-answer-button {
+              .question {
+              }
+              .plus-icon {
+              }
+            }
+            .anwser {
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .featured-vacancies {
+    .featured-vacancies-title {
+    }
+    .tags {
+      .tag {
+        .tag-text {
+        }
+      }
+    }
+  }
+
+  .feedbacks-section {
+    .feedbacks-title {
+    }
+    .feedbacks-carousel {
+      .feedback {
+        .feedback-header {
+          .avatar {
+          }
+          .author-info {
+            .feedback-author {
+            }
+            .author-position {
+            }
+          }
+        }
+        .feedback-text {
+        }
+        .linkedin {
+          .linkedin-icon {
+          }
+        }
+      }
+    }
+    .feedback-selected-icons {
+      .feedback-selected-item {
+      }
+    }
+  }
+}
+
+.footer {
+  .logo {
+    .logo-image {
+    }
+    .logo-text {
+    }
+  }
+  .footer-links {
+    .links-title {
+    }
+    .links-list {
+      .link-item {
+        .link {
+        }
+      }
+    }
+  }
+  .social-media-list {
+    .social-media-link {
+      .social-media-logo {
       }
     }
   }
