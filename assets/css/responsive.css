@@ -52,7 +52,22 @@
     }
 
     .about-section {
-        padding: 32px 32px 72px;
+      padding: 32px 32px 72px;
+    }
+
+    .about-for-candidates {
+      .candidates-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        .candidates-banner {
+          min-width: auto;
+        }
+
+        .candidates-info {
+          min-width: auto;
+        }
+      }
     }
   }
 }
