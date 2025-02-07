@@ -30,5 +30,25 @@
         }
       }
     }
+
+    .companies-section {
+      margin: 72px 16px;
+      padding: 30px 32px;
+
+      .companies-info {
+        .companies-list {
+          gap: 15px;
+
+          .company {
+            width: 71px;
+            height: 70px;
+
+            .company-logo {
+              width: 30px;
+            }
+          }
+        }
+      }
+    }
   }
 }
