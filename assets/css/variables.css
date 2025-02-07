@@ -1,11 +1,40 @@
 :root {
+  /* Colors */
   --text-color-50: #ffffff;
   --text-color-950: #292929;
-  --primary-color-50: #CDBCF6;
+  --primary-color-50: #cdbcf6;
   --primary-color-300: #cdbcf6;
-  --primary-color-700: #6435bb; 
+  --primary-color-700: #6435bb;
   --primary-color-800: #563099;
   --primary-color-900: #4c2b84;
   --secondary-color-500: #fecf01;
   --secondary-color-600: #d09800;
+
+  /* Font Family */
+  --primary-font-family: "Lato", serif;
+
+  /* Font size */
+  --tiny-font-size: 14px;
+  --extra-small-font-size: 16px;
+  --small-font-size: 20px;
+  --medium-font-size: 22px;
+  --base-font-size: 24px;
+  --large-font-size: 32px;
+  --extra-large-font-size: 40px;
+  --giant-font-size: 48px;
+
+  /* Font Weight */
+  --thin-weight: 400;
+  --medium-weight: 600;
+  --bold-weight: 700;
+
+  /* Line Height */
+  --tiny-line-height: 22.4px;
+  --extra-small-line-height: 24px;
+  --small-line-height: 28.8px;
+  --medium-line-height: 30.8px;
+  --base-line-height: 33.6px;
+  --large-line-height: 44.8px;
+  --extra-large-line-height: 56px;
+  --giant-line-height: 67.2px;
 }

@@ -1,5 +1,11 @@
 .header {
+  padding: 32px;
+
   .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
     .logo-image {
     }
     .logo-title {
