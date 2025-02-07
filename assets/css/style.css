@@ -182,6 +182,14 @@ body {
           font-size: var(--xs-font-size);
           font-weight: var(--bold-weight);
           width: fit-content;
+          cursor: pointer;
+          transition-duration: 0.3s;
+          border: solid 2px transparent;
+        }
+
+        .search-vacancy-button:hover {
+          box-shadow: 0 0 15px var(--primary-color-700);
+          border: solid 2px var(--text-color-50);
         }
       }
     }
@@ -279,13 +287,72 @@ body {
   }
 
   .about-section {
-    .about-title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 32px 32px 0;
+
+    .about-container {
+      display: flex;
+      max-width: 1011px;
+
+      .about-title {
+        z-index: 1;
+        flex: 1;
+        font-size: var(--xl-font-size);
+        color: var(--primary-color-800);
+        font-weight: var(--md-weight);
+        line-height: var(--xl-line-height);
+      }
+
+      .about-info {
+        z-index: 1;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 10dvw;
+
+        .about-text {
+          font-weight: var(--thin-weight);
+          font-size: var(--md-font-size);
+          line-height: var(--md-line-height);
+
+          .highlight-text {
+            color: var(--primary-color-800);
+            font-weight: var(--bold-weight);
+          }
+        }
+
+        .about-text:nth-child(2) {
+          margin-bottom: 16px;
+        }
+
+        .about-button {
+          padding: 16px 32px;
+          border-radius: 10px;
+          background-color: var(--primary-color-800);
+          color: var(--text-color-50);
+          font-size: var(--xs-font-size);
+          font-weight: var(--bold-weight);
+          width: fit-content;
+          cursor: pointer;
+          transition-duration: 0.3s;
+          border: solid 2px transparent;
+        }
+        
+        .about-button:hover {
+          box-shadow: 0 0 15px var(--primary-color-700);
+          border: solid 2px var(--text-color-50);
+        }
+      }
     }
-    .about-info {
-      .about-text {
-      }
-      .about-button {
-      }
+
+    .about-border {
+      position: absolute;
+      min-width: 100dvw;
+      bottom: 0;
+      z-index: 0;
     }
   }
 
