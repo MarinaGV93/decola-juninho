@@ -15,26 +15,33 @@
 
   /* Font size */
   --tiny-font-size: 14px;
-  --extra-small-font-size: 16px;
-  --small-font-size: 20px;
-  --medium-font-size: 22px;
+  --xs-font-size: 16px;
+  --sm-font-size: 20px;
+  --md-font-size: 22px;
   --base-font-size: 24px;
-  --large-font-size: 32px;
-  --extra-large-font-size: 40px;
+  --lg-font-size: 32px;
+  --xl-font-size: 40px;
   --giant-font-size: 48px;
 
   /* Font Weight */
   --thin-weight: 400;
-  --medium-weight: 600;
+  --md-weight: 600;
   --bold-weight: 700;
 
   /* Line Height */
   --tiny-line-height: 22.4px;
-  --extra-small-line-height: 24px;
-  --small-line-height: 28.8px;
-  --medium-line-height: 30.8px;
+  --xs-line-height: 24px;
+  --sm-line-height: 28.8px;
+  --md-line-height: 30.8px;
   --base-line-height: 33.6px;
-  --large-line-height: 44.8px;
-  --extra-large-line-height: 56px;
+  --lg-line-height: 44.8px;
+  --xl-line-height: 56px;
   --giant-line-height: 67.2px;
+
+  /* Breakpoints */
+  --xs-breakpoint: 320px;
+  --sm-breakpoint: 480px;
+  --md-breakpoint: 720px;
+  --lg-breakpoint: 1280px;
+  --xl-breakpoint: 1440px;
 }

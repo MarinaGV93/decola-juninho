@@ -1,3 +1,8 @@
+* {
+  font-family: var(--primary-font-family);
+  color: var(--text-color-950);
+}
+
 *,
 ::after,
 ::before,
@@ -34,11 +39,14 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 
 img,
 video {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
 }
