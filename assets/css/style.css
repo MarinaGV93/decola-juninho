@@ -169,7 +169,7 @@ body {
           flex: 1;
           width: 100%;
         }
-        
+
         .search-vacancy::placeholder {
           color: var(--primary-color-800);
         }
@@ -208,18 +208,72 @@ body {
   }
 
   .companies-section {
+    margin: 72px 32px;
+    padding: 72px 95px;
+    border-radius: 50px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color-700);
+    max-width: var(--lg-breakpoint);
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+
     .companies-info {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: fit-content;
+      flex: 1;
+      max-width: 457px;
+      min-width: 300px;
+
       .companies-title {
+        color: var(--text-color-50);
+        font-size: var(--xl-font-size);
+        font-weight: var(--md-weight);
+        line-height: var(--xl-line-height);
       }
+
       .companies-text {
+        color: var(--text-color-50);
+        font-size: var(--base-font-size);
+        font-weight: var(--thin-weight);
+        line-height: var(--base-line-height);
       }
+
       .companies-list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
         .company {
+          border-radius: 20px;
+          width: 91px;
+          height: 90px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--text-color-50);
+
           .company-logo {
+            width: 40px;
+            height: auto;
           }
         }
       }
       .vacancy-number {
+        text-align: center;
+        font-size: var(--md-font-size);
+        font-weight: var(--thin-weight);
+        line-height: var(--md-line-height);
+        color: var(--text-color-50);
+
+        strong {
+          color: var(--text-color-50);
+        }
       }
     }
   }
