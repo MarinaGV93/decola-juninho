@@ -725,6 +725,7 @@ body {
       .feedbacks-carousel {
         display: flex;
         gap: 20px;
+        cursor: grab;
 
         .feedback {
           padding: 32px;
