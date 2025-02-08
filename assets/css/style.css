@@ -425,24 +425,75 @@ body {
           font-size: var(--sm-font-size);
           font-weight: var(--bold-weight);
           line-height: var(--xs-line-height);
+          border: solid 2px transparent;
+          transition-duration: 0.3s;
+          cursor: pointer;
+        }
+
+        .candidates-button:hover {
+          box-shadow: 0 0 15px var(--text-color-50);
+          border: solid 2px var(--primary-color-900);
         }
       }
     }
   }
 
   .about-for-companies {
+    padding: 72px 32px;
+    width: 100%;
+    margin-top: -1px;
+    display: flex;
+    justify-content: center;
+
     .companies-info {
-      .companies-text {
-        .highlight {
-        }
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+      max-width: 484px;
+      min-width: 300px;
+
+      .companies-title {
+        color: var(--primary-color-800);
+        font-weight: var(--md-weight);
+        font-size: var(--xl-font-size);
+        line-height: var(--xl-line-height);
       }
+
+      .companies-text {
+        color: var(--primary-color-800);
+        font-size: var(--base-font-size);
+        font-weight: var(--thin-weight);
+        line-height: var(--base-line-height);
+      }
+
       .companies-button {
+        padding: 16px;
+        border-radius: 10px;
+        background-color: var(--primary-color-800);
+        color: var(--text-color-50);
+        font-size: var(--sm-font-size);
+        font-weight: var(--bold-weight);
+        width: fit-content;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        border: solid 2px transparent;
+      }
+
+      .companies-button:hover {
+        box-shadow: 0 0 15px var(--primary-color-700);
+        border: solid 2px var(--text-color-50);
       }
     }
     .companies-banner {
-      .companies-title {
-        .companies-title-hightlight {
-        }
+      flex: 1;
+      width: 100%;
+      min-width: 300px;
+      max-width: 468px;
+
+      .companies-image {
+        width: 100%;
       }
     }
   }
