@@ -7,8 +7,10 @@
   --primary-color-700: #6435bb;
   --primary-color-800: #563099;
   --primary-color-900: #4c2b84;
+  --primary-color-950: #2C115A;
   --secondary-color-500: #fecf01;
   --secondary-color-600: #d09800;
+  
 
   /* Font Family */
   --primary-font-family: "Lato", serif;
