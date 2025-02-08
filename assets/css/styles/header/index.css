@@ -1,0 +1,111 @@
+.header {
+  width: 100%;
+  padding: 32px;
+  max-width: var(--lg-breakpoint);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 25px;
+  column-gap: 10px;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    cursor: default;
+    user-select: none;
+
+    .logo-image {
+      border-radius: 50%;
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+      height: 65px;
+    }
+
+    .logo-title {
+      font-size: var(--base-font-size);
+      font-weight: var(--bold-weight);
+      white-space: nowrap;
+    }
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 33.5px;
+    row-gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .nav-links {
+      display: flex;
+      column-gap: 50px;
+      row-gap: 25px;
+
+      font-weight: var(--md-weight);
+      font-size: var(--xs-font-size);
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      .nav-item {
+        cursor: pointer;
+        .link {
+          color: var(--text-color-950);
+          transition-duration: 0.3s;
+          white-space: nowrap;
+        }
+      }
+
+      .nav-item:first-child {
+        .link {
+          color: var(--primary-color-800);
+        }
+      }
+
+      .nav-item:hover {
+        .link {
+          filter: drop-shadow(0 0 5px var(--primary-color-700));
+        }
+      }
+    }
+
+    .nav-buttons {
+      display: flex;
+      row-gap: 10px;
+      column-gap: 25px;
+      font-weight: var(--md-weight);
+      font-size: var(--xs-font-size);
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      .nav-item {
+        cursor: pointer;
+
+        .nav-button {
+          padding: 16px 32px;
+          border: solid 2px var(--primary-color-800);
+          border-radius: 50px;
+          background: none;
+          font-weight: var(--md-weight);
+          cursor: pointer;
+          transition-duration: 0.3s;
+        }
+
+        .nav-button:hover {
+          box-shadow: 0 0 5px var(--primary-color-700);
+        }
+
+        .login {
+          color: var(--primary-color-800);
+        }
+
+        .register {
+          background-color: var(--primary-color-800);
+          color: var(--text-color-50);
+        }
+      }
+    }
+  }
+}

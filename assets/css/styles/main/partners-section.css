@@ -1,0 +1,58 @@
+.container {
+  .partners-section {
+    display: flex;
+    padding: 88px;
+    background-color: var(--primary-color-700);
+    justify-content: center;
+    width: 100%;
+
+    .partners-container {
+      gap: 16px;
+      width: 100%;
+      max-width: var(--lg-breakpoint);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .partners-title {
+        text-align: center;
+        color: var(--text-color-50);
+        font-size: var(--xl-font-size);
+        font-weight: var(--bold-weight);
+      }
+
+      .partners-text {
+        color: var(--text-color-50);
+        margin-bottom: 32px;
+        font-size: var(--base-font-size);
+        font-weight: var(--thin-weight);
+        text-align: justify;
+        max-width: 736px;
+      }
+
+      .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 107px;
+        row-gap: 58px;
+
+        .partner {
+          max-width: 162px;
+        }
+
+        .partner.coursera {
+          max-width: 202px;
+        }
+        .partner.alura {
+          max-width: 85px;
+        }
+
+        .partner.udemy {
+          max-width: 162px;
+        }
+      }
+    }
+  }
+}
