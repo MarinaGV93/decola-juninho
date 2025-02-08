@@ -69,5 +69,32 @@
         }
       }
     }
+
+    .about-for-companies {
+      flex-direction: column;
+
+      .companies-info {
+        order: 2;
+        align-items: end;
+
+        .companies-title, .companies-text  {
+          text-align: end;
+        }
+      }
+
+      .companies-banner {
+        order: 1;
+      }
+    }
+
+    .partners-section {
+      padding: 60px 40px;
+      .partners-container {
+          .partners-list {
+            column-gap: 50px;
+            row-gap: 40px;
+          }
+      }
+    }
   }
 }
