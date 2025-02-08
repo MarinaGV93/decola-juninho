@@ -2,6 +2,18 @@
   .header {
     flex-direction: column;
   }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px;
+
+    .footer-links-container {
+      width: 100%;
+      gap: 20px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -77,7 +89,8 @@
         order: 2;
         align-items: end;
 
-        .companies-title, .companies-text  {
+        .companies-title,
+        .companies-text {
           text-align: end;
         }
       }
@@ -90,10 +103,10 @@
     .partners-section {
       padding: 60px 40px;
       .partners-container {
-          .partners-list {
-            column-gap: 50px;
-            row-gap: 40px;
-          }
+        .partners-list {
+          column-gap: 50px;
+          row-gap: 40px;
+        }
       }
     }
 
@@ -110,6 +123,20 @@
         border-top: 1px solid var(--primary-color-300);
         padding-top: 40px;
         justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    .footer-links-container {
+      flex-direction: column;
+      flex: 1;
+      gap: 40px;
+      
+      .footer-links {
+        text-align: center;
       }
     }
   }
