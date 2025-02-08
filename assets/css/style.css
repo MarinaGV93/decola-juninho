@@ -657,11 +657,42 @@ body {
   }
 
   .featured-vacancies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--lg-breakpoint);
+    column-gap: 5dvw;
+    row-gap: 20px;
+    padding: 72px;
+
     .featured-vacancies-title {
+      font-weight: var(--md-weight);
+      font-size: var(--xl-font-size);
+      line-height: var(--lg-line-height);
+      color: var(--primary-color-900);
+      max-width: 160px;
     }
+
     .tags {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 51px 0 51px 31px;
+      gap: 16px;
+      max-width: 643px;
+      border-left: solid 1px var(--primary-color-300);
+
       .tag {
+        white-space: nowrap;
+        padding: 10px 16px;
+        background-color: var(--text-color-50);
+        border: solid 1px var(--primary-color-300);
+        border-radius: 4px;
+
         .tag-text {
+          font-weight: var(--thin-weight);
+          font-size: var(--sm-font-size);
+          line-height: var(--xs-line-height);
+          color: var(--primary-color-900);
         }
       }
     }

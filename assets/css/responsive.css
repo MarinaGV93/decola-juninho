@@ -100,5 +100,17 @@
     .faqs-section {
       padding: 60px 40px;
     }
+
+    .featured-vacancies {
+      flex-direction: column;
+      padding: 60px 40px;
+
+      .tags {
+        border-left: none;
+        border-top: 1px solid var(--primary-color-300);
+        padding-top: 40px;
+        justify-content: center;
+      }
+    }
   }
 }
