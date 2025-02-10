@@ -66,8 +66,16 @@
             }
           }
 
-          .anwser {
+          .answer {
+            overflow-y: hidden;
+            transition: max-height 0.5s, padding-bottom 0.5s;
+            padding-bottom: 0;
+            max-height: 0;
+          }
+
+          .answer.active {
             padding-bottom: 24px;
+            max-height: 50px;
           }
         }
 
