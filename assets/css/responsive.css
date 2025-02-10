@@ -160,7 +160,11 @@
 
     .featured-vacancies {
       flex-direction: column;
-      padding: 60px 40px;
+      padding: 40px;
+
+      .featured-vacancies-title {
+        text-align: center;
+      }
 
       .tags {
         border-left: none;
