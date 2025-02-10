@@ -27,6 +27,7 @@
         user-select: none;
         display: flex;
         gap: 20px;
+        overflow-x: hidden;
 
         .feedback {
           padding: 32px;
