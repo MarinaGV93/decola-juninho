@@ -17,7 +17,6 @@
       justify-content: center;
       gap: 16px;
       max-width: 484px;
-      min-width: 300px;
 
       .companies-title {
         color: var(--primary-color-800);
@@ -55,7 +54,6 @@
     .companies-banner {
       flex: 1;
       width: 100%;
-      min-width: 300px;
       max-width: 468px;
 
       .companies-image {

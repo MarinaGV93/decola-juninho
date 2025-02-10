@@ -8,7 +8,6 @@
     .about-container {
       display: flex;
       max-width: 1011px;
-      flex-wrap: wrap;
       gap: 20px;
 
       .about-title {
@@ -18,11 +17,9 @@
         color: var(--primary-color-800);
         font-weight: var(--md-weight);
         line-height: var(--xl-line-height);
-        min-width: 300px;
       }
 
       .about-info {
-        min-width: 300px;
         z-index: 1;
         flex: 1;
         display: flex;

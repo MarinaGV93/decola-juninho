@@ -1,7 +1,8 @@
 @media (max-width: 1200px) {
   .container {
     .feedbacks-section {
-      .swiper::after, .swiper::before {
+      .swiper::after,
+      .swiper::before {
         width: 30%;
       }
     }
@@ -11,7 +12,8 @@
 @media (max-width: 1024px) {
   .container {
     .feedbacks-section {
-      .swiper::after, .swiper::before {
+      .swiper::after,
+      .swiper::before {
         width: 35%;
       }
     }
@@ -44,8 +46,14 @@
   .container {
     .hero {
       padding: 16px;
+      flex-direction: column;
+      align-items: center;
+      background-color: red;
+      flex-wrap: nowrap;
 
       .hero-info {
+        min-width: auto;
+
         .hero-title {
           font-size: var(--xl-font-size);
           line-height: var(--xl-line-height);
@@ -62,11 +70,17 @@
           }
         }
       }
+
+      .hero-image-container {
+        min-width: auto;
+      }
     }
 
     .companies-section {
       margin: 72px 16px;
       padding: 30px 32px;
+      flex-direction: column;
+      width: 95%;
 
       .companies-info {
         .companies-list {
@@ -86,6 +100,11 @@
 
     .about-section {
       padding: 32px 32px 72px;
+
+      .about-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+      }
     }
 
     .about-for-candidates {
@@ -105,10 +124,12 @@
 
     .about-for-companies {
       flex-direction: column;
+      flex-wrap: nowrap;
 
       .companies-info {
         order: 2;
         align-items: end;
+        min-width: auto;
 
         .companies-title,
         .companies-text {
@@ -118,6 +139,7 @@
 
       .companies-banner {
         order: 1;
+        min-width: auto;
       }
     }
 
@@ -133,6 +155,8 @@
 
     .faqs-section {
       padding: 60px 40px;
+
+      flex-direction: column;
     }
 
     .featured-vacancies {
@@ -148,7 +172,8 @@
     }
 
     .feedbacks-section {
-      .swiper::after, .swiper::before {
+      .swiper::after,
+      .swiper::before {
         display: none;
       }
     }
@@ -161,7 +186,7 @@
       flex-direction: column;
       flex: 1;
       gap: 40px;
-      
+
       .footer-links {
         text-align: center;
       }

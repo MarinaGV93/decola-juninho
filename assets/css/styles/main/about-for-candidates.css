@@ -12,7 +12,6 @@
       display: flex;
       width: 100%;
       align-items: center;
-      flex-wrap: wrap;
       row-gap: 30px;
       column-gap: 40px;
       justify-content: space-around;
@@ -20,7 +19,6 @@
       .candidates-banner {
         flex: 1;
         width: 100%;
-        min-width: 300px;
         max-width: 468px;
 
         .candidate-image {
@@ -34,7 +32,6 @@
         flex-direction: column;
         gap: 16px;
         max-width: 484px;
-        min-width: 300px;
 
         .candidates-title {
           color: var(--text-color-50);

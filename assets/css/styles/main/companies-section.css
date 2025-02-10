@@ -9,7 +9,6 @@
     background-color: var(--primary-color-700);
     max-width: var(--lg-breakpoint);
     gap: 45px;
-    flex-wrap: wrap;
     justify-content: center;
 
     .companies-info {
@@ -19,7 +18,6 @@
       width: fit-content;
       flex: 1;
       max-width: 457px;
-      min-width: 300px;
 
       .companies-title {
         color: var(--text-color-50);
