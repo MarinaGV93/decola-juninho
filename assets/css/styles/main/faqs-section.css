@@ -63,12 +63,19 @@
             .plus-icon {
               color: var(--primary-color-950);
               font-size: var(--base-font-size);
+              transition: transform 0.5s;
+            }
+
+            .plus-icon.icon-active {
+              transform: rotate(45deg);
             }
           }
 
           .answer {
             overflow-y: hidden;
-            transition: max-height 0.5s, padding-bottom 0.5s;
+            transition:
+              max-height 0.5s,
+              padding-bottom 0.5s;
             padding-bottom: 0;
             max-height: 0;
           }
