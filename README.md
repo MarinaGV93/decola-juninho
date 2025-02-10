@@ -23,7 +23,11 @@ The project is a landing page from Decola Juninho, that has the objectives:
 
 ### FAQs Functionality
 
-![faqs](./assets/screenshots/faqs-functionality.gif)
+![faqs functionality](./assets/screenshots/faqs-functionality.gif)
+
+### Feedbacks Carousel
+
+![feedbacks functionality](./assets/screenshots/swiper-carousel.gif)
 
 ### Mobile Responsive Layout
 
