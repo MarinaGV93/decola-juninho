@@ -113,6 +113,7 @@
           width: 10px;
           background: var(--text-color-50);
           opacity: 1;
+          transition-duration: 0.3s;
         }
 
         .swiper-pagination-bullet-active {
