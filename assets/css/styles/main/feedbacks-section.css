@@ -122,36 +122,33 @@
       }
     }
 
-    .swiper::after {
-      content: "";
-      width: 25%;
-      position: absolute;
-      height: calc(100% - 66px);
-      z-index: 1;
-      background: linear-gradient(
-        to left,
-        var(--primary-color-700) 70%,
-        transparent
-      );
-      opacity: 0.7;
-      right: 0;
-      top: 0;
-    }
-
+    .swiper::after,
     .swiper::before {
       content: "";
       width: 25%;
       position: absolute;
       height: calc(100% - 76px);
       z-index: 2;
+      opacity: 0.7;
+      top: 0;
+    }
+
+    .swiper::after {
+      right: 0;
+      background: linear-gradient(
+        to left,
+        var(--primary-color-700) 70%,
+        transparent
+      );
+    }
+
+    .swiper::before {
       background: linear-gradient(
         to right,
         var(--primary-color-700) 70%,
         transparent
       );
-      opacity: 0.8;
       left: 0;
-      top: 0;
     }
   }
 }
