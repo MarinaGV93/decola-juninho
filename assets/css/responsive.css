@@ -48,7 +48,6 @@
       padding: 16px;
       flex-direction: column;
       align-items: center;
-      background-color: red;
       flex-wrap: nowrap;
 
       .hero-info {
