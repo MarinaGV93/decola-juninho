@@ -13,6 +13,7 @@
       flex-direction: column;
       gap: 56px;
       align-items: center;
+      position: relative;
 
       .feedbacks-title {
         color: var(--text-color-50);
@@ -23,9 +24,9 @@
       }
 
       .feedbacks-carousel {
+        user-select: none;
         display: flex;
         gap: 20px;
-        cursor: grab;
 
         .feedback {
           padding: 32px;
