@@ -44,6 +44,12 @@
     />
     <link rel="stylesheet" href="./assets/css/styles/footer/index.css" />
 
+    <!-- Linking SwiperJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -406,12 +412,12 @@
       </section>
 
       <section class="feedbacks-section">
-        <div class="feedbacks-container">
-          <h2 class="feedbacks-title">
-            Feedback de profissionais que decolaram!
-          </h2>
-          <ul class="feedbacks-carousel">
-            <li class="feedback">
+        <h2 class="feedbacks-title">
+          Feedback de profissionais que decolaram!
+        </h2>
+        <div class="feedbacks-container swiper">
+          <ul class="feedbacks-carousel swiper-wrapper">
+            <li class="feedback swiper-slide">
               <div class="feedback-header">
                 <img
                   src="assets/imgs/avatar/joao-avatar.webp"
@@ -439,7 +445,7 @@
                 /joãopedro
               </p>
             </li>
-            <li class="feedback">
+            <li class="feedback swiper-slide">
               <div class="feedback-header">
                 <img
                   src="assets/imgs/avatar/solange-avatar.webp"
@@ -467,7 +473,7 @@
                 /solangesilva
               </p>
             </li>
-            <li class="feedback">
+            <li class="feedback swiper-slide">
               <div class="feedback-header">
                 <img
                   src="assets/imgs/avatar/victor-avatar.webp"
@@ -495,7 +501,7 @@
                 /victoralves
               </p>
             </li>
-            <li class="feedback">
+            <li class="feedback swiper-slide">
               <div class="feedback-header">
                 <img
                   src="assets/imgs/avatar/joao-avatar.webp"
@@ -523,7 +529,7 @@
                 /joãopedro
               </p>
             </li>
-            <li class="feedback">
+            <li class="feedback swiper-slide">
               <div class="feedback-header">
                 <img
                   src="assets/imgs/avatar/solange-avatar.webp"
@@ -551,14 +557,44 @@
                 /solangesilva
               </p>
             </li>
+            <li class="feedback swiper-slide">
+              <div class="feedback-header">
+                <img
+                  src="assets/imgs/avatar/victor-avatar.webp"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <div class="author-info">
+                  <strong class="feedback-author">Victor Alves</strong>
+                  <p class="author-position">Dev. Back End</p>
+                </div>
+              </div>
+              <p class="feedback-text">
+                Um enorme obrigado ao Decola Juninho! Graças a eles,
+                <strong class="highlight">
+                  iniciei minha carreira como BackEnd Júnior.</strong
+                >
+                Vaga toooop #recomendo
+              </p>
+              <p class="linkedin">
+                <img
+                  src="assets/imgs/icons/linkedin-icon.webp"
+                  alt="Ícone do Linkedin"
+                  class="linkedin-icon"
+                />
+                /victoralves
+              </p>
+            </li>
           </ul>
-          <ul class="feedback-selected-icons">
+          <!-- <ul class="feedback-selected-icons swiper-pagination">
             <li class="feedback-item-selection selected" />
             <li class="feedback-item-selection" />
             <li class="feedback-item-selection" />
             <li class="feedback-item-selection" />
             <li class="feedback-item-selection" />
-          </ul>
+          </ul> -->
+
+          <div class="swiper-pagination"></div>
         </div>
       </section>
     </main>
@@ -637,4 +673,6 @@
   </body>
   <script src="./assets/js/faqs.js" type="text/javascript"></script>
   <script src="./assets/js/feedbacks.js" type="text/javascript"></script>
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </html>

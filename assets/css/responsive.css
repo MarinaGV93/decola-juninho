@@ -20,6 +20,7 @@
   .header {
     padding: 16px;
   }
+
   .container {
     .hero {
       padding: 16px;
@@ -123,6 +124,12 @@
         border-top: 1px solid var(--primary-color-300);
         padding-top: 40px;
         justify-content: center;
+      }
+    }
+
+    .feedbacks-section {
+      .swiper::after, .swiper::before {
+        display: none;
       }
     }
   }
