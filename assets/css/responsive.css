@@ -44,6 +44,22 @@
   }
 
   .container {
+    .feedbacks-section {
+      .swiper::after,
+      .swiper::before {
+        width: 10%;
+      }
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 25px;
+      height: 25px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 15px;
+      font-weight: bold;
+} 
     .hero {
       padding: 16px;
       flex-direction: column;
@@ -184,6 +200,24 @@
 }
 
 @media (max-width: 480px) {
+    .container {
+      .feedbacks-section {
+        .swiper::after,
+        .swiper::before {
+          width: 10%;
+        }
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        width: 25px;
+        height: 25px;
+      }
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 15px;
+        font-weight: bold;
+  } 
+  }
   .footer {
     .footer-links-container {
       flex-direction: column;

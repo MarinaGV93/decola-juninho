@@ -1,13 +1,64 @@
 .container {
   .feedbacks-section {
     padding: 72px 20px 62px;
-    background-color: var(--primary-color-700);
+    background-color: var(--primary-color-700);  
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 56px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: var(--text-color-50);
+    background: var(--primary-color-700);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    transition: background 0.2s;
+    outline: none;
+    /* Aumenta a visibilidade ao focar via teclado */
+  }
+  .swiper-button-next:focus,
+  .swiper-button-prev:focus {
+    box-shadow: 0 0 0 3px var(--secondary-color-600);
+    outline: none;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    /* Garante acessibilidade para navegação por teclado */
+    tab-index: 0;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: var(--primary-color-600);
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
     .feedbacks-title {
       color: var(--text-color-50);
@@ -152,4 +203,4 @@
       left: 0;
     }
   }
-}
+
